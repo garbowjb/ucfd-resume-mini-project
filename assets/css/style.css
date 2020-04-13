@@ -286,7 +286,7 @@ footer {
 }
 
 .timeline-item {
-    padding: 4em 2em 0 2em;
+    padding: 2.1em 2em 1em 2em;
     position: relative;
     color: #fafafa;
     border-left: 1px dashed;
@@ -301,7 +301,7 @@ footer {
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
-    top: 3em;
+    top: 0.5em;
     display: block;
     font-family: "Exo", sans-serif;
     font-weight: 500;
@@ -316,7 +316,7 @@ footer {
     height: 12px;
     border-radius: 12px;
     display: block;
-    top: 2.5em;
+    top: 0.5em;
     position: absolute;
     left: -6px;
     content: '';
@@ -325,4 +325,5 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+    margin-top: -13px;
 }
